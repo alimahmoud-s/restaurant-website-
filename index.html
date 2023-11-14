@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-dark bg-opacity-50 fixed-top ps-lg-2 pe-lg-2"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Restaurant</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#main"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#Menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#About-Us"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#contact"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="main" class="header vh-100 d-flex">
+      <div
+        class="layout bg-dark w-100 h-100 bg-opacity-50 d-flex justify-content-center"
+      >
+        <input
+          class="form-control form-control-lg w-75 bg-white border-2 border-white bg-opacity-25 align-self-center"
+          type="text"
+          placeholder="search"
+          aria-label=".form-control-lg example"
+        />
+      </div>
+    </header>
+
+    <section id="Menu" class="menu py-sm-4 container">
+      <div class="sectionName text-center py-5">
+        <div
+          class="title text-center d-flex justify-content-center align-items-center"
+        >
+          <h3 class="main-color opacity-25">MENU</h3>
+          <h4 class="position-absolute">MENU</h4>
+        </div>
+        <p class="w-75 m-auto">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat ab
+        </p>
+      </div>
+      <ul
+        class="nav nav-pills mb-3 d-flex justify-content-center"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-home"
+            type="button"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+          >
+            Home
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+          >
+            Profile
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            Contact
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-mango-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-mango"
+            type="button"
+            role="tab"
+            aria-controls="pills-mango"
+            aria-selected="false"
+            mango
+          >
+            mango
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="pills-home"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+          tabindex="0"
+        >
+          <div class="container">
+            <div class="row g-2">
+              <div class="col-lg-4 col-md-6 col-sm-12 position-relative">
+                <div class="card overflow-hidden">
+                  <img
+                    src="img/BIT-SMO-006-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12 position-relative">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-001-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-003-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3 position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-004-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-005-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-006-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-006-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+            </div>
+          </div>
+        </div>
+        <!-- frist section  -->
+        <div
+          class="tab-pane fade"
+          id="pills-profile"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
+          tabindex="0"
+        >
+          <div class="container">
+            <div class="row g-2">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-SMO-006-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-001-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-003-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-004-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-sm-12 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-005-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-sm-12 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-006-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-sm-12 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-006-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+            </div>
+          </div>
+        </div>
+        <!-- secod section -->
+        <div
+          class="tab-pane fade"
+          id="pills-contact"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+          tabindex="0"
+        >
+          <div class="container">
+            <div class="row g-2">
+              <div class="col-lg-4 col-sm-12 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-SMO-006-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-sm-12 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-001-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12 col-md-6">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-003-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-004-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-005-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6col-sm-12 col-md-6col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-006-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-006-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+            </div>
+          </div>
+        </div>
+        <!-- theard section -->
+        <div
+          class="tab-pane fade"
+          id="pills-mango"
+          role="tabpanel"
+          aria-labelledby="pills-mango-tab"
+          tabindex="0"
+        >
+          <div class="container">
+            <div class="row g-2">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-SMO-006-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-001-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-003-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-004-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-005-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-006-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img
+                    src="img/BIT-JUC-006-800x888.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div
+                    class="card-body position-absolute bg-white bg-opacity-75 rounded-3"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="About-Us" class="py-4 bg-primary bg-opacity-10">
+      <div class="container main-about-us-sec py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="title d-flex justify-content-center align-items-center">
+              <h3 class="main-color opacity-25">Our Team</h3>
+              <h4 class="position-absolute">Our Team</h4>
+            </div>
+            <h4 class="fw-bolder fs-2">Meet The Entire Team</h4>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos nesciunt rem expedita, doloribus sed sequi cum
+              consequuntur eligendi recusandae vero.
+            </p>
+            <div class="container sub-about-us-sec">
+              <div class="row">
+                <div class="col-md-6 py-4">
+                  <h4 class="text-primary fw-bolder fs-2">Caluter</h4>
+                  <div class="brdr bg-primary"></div>
+                  <p class="lead py-2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Velit architecto, repellat tempora iusto quibusdam quis
+                  </p>
+                </div>
+                <div class="col-md-6 py-4">
+                  <h4 class="text-primary fw-bolder fs-2">Work Place</h4>
+                  <div class="brdr bg-primary"></div>
+                  <p class="lead py-2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Velit architecto, repellat tempora iusto quibusdam quis
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              id="carouselExampleDark"
+              class="carousel carousel-dark slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div
+                  class="carousel-item active p-5 pt-0"
+                  data-bs-interval="3000"
+                >
+                  <img
+                    src="img/users pic/pexels-emily-garland-1499327.jpg"
+                    class="d-block w-25 rounded-circle m-auto clint-img"
+                    alt="..."
+                  />
+                  <div
+                    class="corser-brdr shadow-lg carousel-caption d-md-block pt-5 position-static"
+                  >
+                    <h5 class="pt-4">emily-garland</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quis, illo.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item p-5 pt-0" data-bs-interval="3000">
+                  <img
+                    src="img/users pic/pexels-masha-raymers-2726111.jpg"
+                    class="d-block w-25 rounded-circle m-auto clint-img"
+                    alt="..."
+                  />
+                  <div
+                    class="corser-brdr carousel-caption shadow-lg d-md-block position-static pt-5 corser-brdr"
+                  >
+                    <h5 class="pt-4">masha-raymers</h5>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Cumque, assumenda?
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item p-5 pt-0" data-bs-interval="3000">
+                  <img
+                    src="img/users pic/pexels-pixabay-220453.jpg"
+                    class="d-block w-25 rounded-circle m-auto clint-img"
+                    alt="..."
+                  />
+                  <div
+                    class="carousel-caption d-md-block position-static pt-5 shadow-lg corser-brdr"
+                  >
+                    <h5 class="pt-4">pixabay</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Magnam, cupiditate.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item p-5 pt-0" data-bs-interval="3000">
+                  <img
+                    src="img/users pic/pexels-pixabay-415829.jpg"
+                    class="d-block w-25 rounded-circle clint-img m-auto"
+                    alt="..."
+                  />
+                  <div
+                    class="carousel-caption d-md-block position-static pt-5 shadow-lg corser-brdr"
+                  >
+                    <h5 class="pt-4">mohsen</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Magni, voluptatibus.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item p-5 pt-0" data-bs-interval="3000">
+                  <img
+                    src="img/users pic/pexels-mohamed-abdelghaffar-771742.jpg"
+                    class="d-block w-25 rounded-circle m-auto clint-img"
+                    alt="..."
+                  />
+                  <div
+                    class="carousel-caption d-md-block position-static pt-5 shadow-lg corser-brdr"
+                  >
+                    <h5 class="pt-4">mohamed-abdelghaffar</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Perferendis, dolor?
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-indicators position-static">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                >
+                  <img
+                    src="img/users pic/pexels-emily-garland-1499327.jpg "
+                    class="w-100 rounded-circle"
+                    alt=""
+                  />
+                </button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                >
+                  <img
+                    src="img/users pic/pexels-masha-raymers-2726111.jpg"
+                    class="w-100 rounded-circle"
+                    alt=""
+                  />
+                </button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                >
+                  <img
+                    src="img/users pic/pexels-pixabay-220453.jpg"
+                    class="w-100 rounded-circle"
+                    alt=""
+                  />
+                </button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                >
+                  <img
+                    src="img/users pic/pexels-pixabay-415829.jpg"
+                    class="w-100 rounded-circle"
+                    alt=""
+                  />
+                </button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                >
+                  <img
+                    src="img/users pic/pexels-mohamed-abdelghaffar-771742.jpg"
+                    class="w-100 rounded-circle"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact ">
+      <div class="container py-4">
+        <div class="title d-flex justify-content-center align-items-center">
+          <h3 class="main-color opacity-25">Contact Us</h3>
+          <h4 class="position-absolute">Contact Us</h4>
+        </div>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="first-name" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="first-name" />
+          </div>
+          <div class="col-md-6">
+            <label for="last-name" class="form-label last-name"
+              >Last Name</label
+            >
+            <input type="text" class="form-control" id="last-name" />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="FeedBack-Area" class="form-label"
+              >write Your FeedBack
+            </label>
+            <textarea
+              class="form-control"
+              id="FeedBack-Area"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <div class="bg-info bg-opacity-10">
+      <div class="container">
+        <footer
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top"
+        >
+          <div class="col mb-3">
+            <a
+              href="#"
+              class="d-flex align-items-center mb-3 link-dark text-decoration-none"
+            >
+              <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap" />
+              </svg>
+            </a>
+            <p class="text-muted">&copy; 2022</p>
+          </div>
+
+          <div class="col mb-3"></div>
+
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
